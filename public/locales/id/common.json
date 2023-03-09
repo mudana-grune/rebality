@@ -1,0 +1,78 @@
+{
+    "welcome": "Selamat datang di {{target}}",
+    "home": "Beranda",
+    "about-us": "Tentang Kami",
+    "advantages": "Keunggulan Kami",
+    "book-now": "Pesan Sekarang!",
+    "hello": "Halo ",
+    "toc": "Syarat dan Ketentuan",
+    "hero": {
+        "title": "Bersiaplah untuk Petualangan Bali Otentik",
+        "body": "Mulailah petualangan yang tak terlupakan di Bali dengan layanan wisata dan perjalanan kami yang telah dipilih secara ahli. Di perusahaan kami, kami percaya untuk menampilkan sisi asli Bali, di luar jalur wisata pada umumnya. Dari jalan-jalan Denpasar yang ramai hingga persawahan yang tenang di Ubud, tur kami membawa Anda dalam perjalanan menjelajahi budaya, tradisi, dan keindahan alam Bali yang kaya. Bersiaplah untuk membenamkan diri di Bali yang sebenarnya dan temukan permata tersembunyinya bersama kami. Pemandu kami yang berpengalaman dan layanan yang dipersonalisasi memastikan bahwa petualangan Anda unik dan berkesan. Pesan petualangan Bali Anda bersama kami hari ini dan bersiaplah untuk menemukan sisi otentik dari surga tropis ini!"
+    },
+    "about": {
+        "title": "Tentang Kami",
+        "body1": "Selamat datang di ReBALIty, gerbang Anda menuju pengalaman otentik dan tak terlupakan di Bali. Kami adalah biro perjalanan yang didedikasikan untuk menampilkan esensi sejati Bali - mulai dari warisan budayanya yang kaya hingga pemandangan alamnya yang menakjubkan. Tim kami terdiri dari para ahli lokal yang memiliki pengetahuan mendalam tentang sejarah, adat istiadat, dan tradisi Bali. Kami bersemangat membantu pengunjung menemukan Bali yang sesungguhnya, di luar tempat-tempat wisata pada umumnya.",
+        "body2": "Di ReBALIty, kami menawarkan berbagai paket wisata yang dapat disesuaikan untuk memenuhi minat dan preferensi unik klien kami. Baik Anda sedang mencari rencana perjalanan yang penuh petualangan atau penjelajahan permata tersembunyi Bali dengan santai, kami siap membantu Anda. Kami bekerja sama dengan klien kami untuk merancang tur yang sesuai dengan kebutuhan mereka, dan pemandu kami yang berpengalaman selalu siap sedia untuk memberikan kiat orang dalam dan wawasan lokal.",
+        "body3": "Misi kami adalah untuk memberikan pengalaman perjalanan yang dipersonalisasi dan otentik yang disesuaikan dengan masing-masing klien kami. Kami percaya bahwa bepergian bukan hanya tentang mencentang item pada daftar periksa, tetapi tentang membenamkan diri dalam budaya baru dan menjalin hubungan yang berarti dengan orang-orang. Itulah sebabnya kami berusaha lebih keras untuk menciptakan lingkungan yang hangat dan ramah bagi klien kami, dan memastikan bahwa setiap momen petualangan mereka di Bali berkesan dan istimewa.",
+        "body4": "Terima kasih telah memilih ReBALIty sebagai mitra perjalanan Anda di Bali. Kami berharap dapat menunjukkan kepada Anda sisi otentik dari pulau yang indah ini!"
+    },
+    "our-advantages": {
+        "title": "Keunggulan Kami",
+        "service": {
+            "title": "Layanan Istimewa",
+            "body": "Kami bangga dalam memberikan layanan terbaik kepada klien kami. Tim kami terdiri dari penduduk lokal yang penuh semangat dan berpengetahuan luas untuk memastikan bahwa perjalanan Anda ke Bali bebas stres dan menyenangkan. Sejak Anda menghubungi kami, kami akan bekerja sama dengan Anda untuk membuat rencana perjalanan pribadi yang sesuai dengan kebutuhan dan preferensi Anda. Pemandu kami yang berpengalaman akan bersama Anda di setiap langkah, memberikan kiat orang dalam dan wawasan lokal untuk membantu Anda memaksimalkan petualangan Anda di Bali."
+        },
+        "experience": {
+            "title": "Pengalaman Unik",
+            "body": "Di ReBALIty, kami percaya bahwa perjalanan adalah tentang menciptakan pengalaman yang tak terlupakan. Itu sebabnya kami berspesialisasi dalam merancang tur yang menampilkan sisi otentik Bali. Mulai dari menjelajahi pura dan desa tersembunyi hingga trekking melalui sawah yang subur dan snorkeling di perairan sebening kristal, kami akan membantu Anda menemukan keindahan Bali yang sesungguhnya. Tur kami dapat disesuaikan untuk memenuhi minat dan preferensi unik Anda, memastikan bahwa Anda memiliki pengalaman yang benar-benar mengesankan."
+        },
+        "price": {
+            "title": "Harga Kompetitif",
+            "body": "Kami percaya bahwa setiap orang harus memiliki kesempatan untuk merasakan keindahan Bali, oleh karena itu kami menawarkan harga yang kompetitif untuk layanan tour dan travel kami. Kami berkomitmen untuk memberikan nilai terbaik untuk uang Anda, tanpa mengorbankan kualitas layanan kami. Penetapan harga kami transparan, tanpa biaya atau biaya tersembunyi, sehingga Anda dapat yakin bahwa Anda mendapatkan penawaran terbaik."
+        },
+        "footer1": "Pilih ReBALIty untuk layanan terbaik, pengalaman tak terlupakan, dan harga bersaing.",
+        "footer2": "Kami akan membantu Anda menemukan sisi asli Bali!"
+    },
+    "contact": {
+        "hello": "Halo, saya {{target}}",
+        "thank_you": "Terima kasih telah menghubungi kami",
+        "thank_you_body": "Pesan Anda akan dialihkan ke WhatsApp",
+        "contact_us": "Hubungi Kami",
+        "contact_us_body": "Jika Anda memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi kami. Kami siap membantu dan memberikan solusi terbaik bagi Anda.",
+        "name_ph": "Nama",
+        "message_ph": "Pesan",
+        "submit": "Kirim Pesan"
+    },
+    "toc_modal": {
+        "title": "$t(toc)",
+        "footer": "Dengan melakukan pemesanan dan pembayaran kepada perusahaan, pelanggan dianggap telah membaca, memahami, dan menyetujui semua syarat dan ketentuan yang berlaku. Terima kasih telah menggunakan layanan kami.",
+        "payment": {
+            "title": "Pembayaran",
+            "line1": "Pembayaran harus dilakukan sesuai dengan harga yang tertera pada website perusahaan atau katalog yang disediakan oleh perusahaan.",
+            "line2": "Pembayaran dapat dilakukan menggunakan transfer bank atau tunai.",
+            "line3": "Pembayaran melalui transfer bank harus dilakukan ke rekening yang ditentukan oleh perusahaan dan bukti pembayaran harus dikirim ke perusahaan.",
+            "line4": "Pembayaran tunai dapat dilakukan di kantor perusahaan atau langsung ke agen yang ditunjuk."
+        },
+        "cancellation": {
+            "title": "Pembatalan",
+            "line1": "Jika pelanggan membatalkan reservasi, perusahaan akan mengembalikan uang yang dibayarkan sesuai dengan kebijakan pengembalian uang yang berlaku.",
+            "line2": "Pengembalian dana akan dilakukan dalam waktu yang ditentukan oleh perusahaan setelah proses verifikasi selesai.",
+            "line3": "Jika pelanggan membatalkan reservasi di tengah perjalanan, perusahaan tidak akan mengembalikan uang yang dibayarkan.",
+            "line4": "Jika perusahaan membatalkan perjalanan, perusahaan akan mengembalikan uang yang dibayarkan oleh pelanggan."
+        },
+        "responsibility": {
+            "title": "Tanggung jawab",
+            "line1": "Perusahaan tidak bertanggung jawab atas segala kerusakan, kehilangan, atau cedera yang terjadi selama perjalanan, kecuali jika disebabkan oleh kelalaian perusahaan.",
+            "line2": "Pelanggan bertanggung jawab untuk membawa dokumen yang diperlukan seperti paspor dan visa.",
+            "line3": "Perusahaan tidak bertanggung jawab atas segala tindakan yang dilakukan oleh pelanggan yang melanggar hukum selama dalam perjalanan."
+        },
+        "change_of_itinerary": {
+            "title": "Perubahan Itinerary",
+            "line1": "Perusahaan berhak mengubah itinerary perjalanan jika terjadi keadaan yang tidak terduga seperti cuaca buruk atau bencana alam.",
+            "line2": "Perusahaan akan memberikan informasi yang cukup kepada pelanggan mengenai perubahan rencana perjalanan.",
+            "line3": "Jika perubahan itinerary yang dilakukan oleh perusahaan mengakibatkan pembatalan perjalanan oleh pelanggan, maka perusahaan akan mengembalikan uang yang dibayarkan oleh pelanggan."
+        }
+    },
+    "callto_action": "Jelajahi Dunia Dengan Melakukan Perjalanan Bersama Kami"
+}

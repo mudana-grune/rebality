@@ -1,0 +1,78 @@
+{
+    "welcome": "Welcome to {{target}}",
+    "home": "Home",
+    "about-us": "About Us",
+    "advantages": "Our Advantages",
+    "book-now": "Book Now!",
+    "hello": "Hello ",
+    "toc": "Terms and Condition",
+    "hero": {
+        "title": "Get Ready for an Authentic Bali Adventure",
+        "body": "Embark on an unforgettable adventure in Bali with our expertly curated tours and travel services. At our company, we believe in showcasing the authentic side of Bali, beyond the typical tourist trail. From the bustling streets of Denpasar to the tranquil rice terraces of Ubud, our tours take you on a journey to explore Bali's rich culture, traditions, and natural beauty. Get ready to immerse yourself in the real Bali and discover its hidden gems with us. Our experienced guides and personalized services ensure that your adventure is both unique and memorable. Book your Bali adventure with us today and get ready to discover the authentic side of this tropical paradise!"
+    },
+    "about": {
+        "title": "About Our Agency",
+        "body1": "Welcome to ReBALIty, your gateway to authentic and unforgettable experiences in Bali. We are a travel agency that is dedicated to showcasing the true essence of Bali - from its rich cultural heritage to its stunning natural landscapes. Our team is made up of local experts who have an in-depth knowledge of Bali's history, customs, and traditions. We are passionate about helping visitors discover the real Bali, beyond the typical tourist spots.",
+        "body2": "At ReBALIty, we offer a range of customizable tour packages that cater to the unique interests and preferences of our clients. Whether you are looking for an adventure-packed itinerary or a leisurely exploration of Bali's hidden gems, we have got you covered. We work closely with our clients to design tours that suit their needs, and our experienced guides are always on hand to provide insider tips and local insights.",
+        "body3": "Our mission is to provide a personalized and authentic travel experience that is tailored to each of our clients. We believe that traveling is not just about ticking off items on a checklist, but about immersing oneself in new cultures and making meaningful connections with people. That is why we go above and beyond to create a warm and welcoming environment for our clients, and ensure that every moment of their Bali adventure is memorable and special.",
+        "body4": "Thank you for choosing ReBALIty as your travel partner in Bali. We look forward to showing you the authentic side of this beautiful island!"
+    },
+    "our-advantages": {
+        "title": "Our Advantages",
+        "service": {
+            "title": "Exceptional Service",
+            "body": "We take pride in providing the best service to our clients. Our team is made up of passionate and knowledgeable locals who go above and beyond to ensure that your trip to Bali is stress-free and enjoyable. From the moment you contact us, we will work closely with you to create a personalized itinerary that suits your needs and preferences. Our experienced guides will be with you every step of the way, providing insider tips and local insights to help you make the most of your Bali adventure."
+        },
+        "experience": {
+            "title": "Unique Experience",
+            "body": "At ReBALIty, we believe that traveling is all about creating unforgettable experiences. That's why we specialize in designing tours that showcase the authentic side of Bali. From exploring hidden temples and villages to trekking through lush rice paddies and snorkeling in crystal-clear waters, we will help you discover the true beauty of Bali. Our tours are customizable to cater to your unique interests and preferences, ensuring that you have a truly memorable experience."
+        },
+        "price": {
+            "title": "Competitive Pricing",
+            "body": "We believe that everyone should have the opportunity to experience the beauty of Bali, which is why we offer competitive pricing for our tours and travel services. We are committed to providing the best value for your money, without compromising on the quality of our service. Our pricing is transparent, with no hidden fees or charges, so you can rest assured that you are getting the best deal possible."
+        },
+        "footer1": "Choose ReBALIty for the best service, unforgettable experiences, and competitive pricing.",
+        "footer2": "Let us help you discover the authentic side of Bali!"
+    },
+    "contact": {
+        "hello": "Hello, i'm {{target}}",
+        "thank_you": "Thank you for contacting us",
+        "thank_you_body": "Your message will be forwarded to WhatsApp",
+        "contact_us": "Contact Us",
+        "contact_us_body": "If you have any inquiries or need assistance, please don't hesitate to reach out to us. We are here to help and provide you with the best possible solution.",
+        "name_ph": "Name",
+        "message_ph": "Message",
+        "submit": "Send Message"
+    },
+    "toc_modal": {
+        "title": "$t(toc)",
+        "footer": "By making a reservation and payment with the company, the customer is deemed to have read, understood, and agreed to all applicable terms and conditions. Thank you for using our services.",
+        "payment": {
+            "title": "Payment",
+            "line1": "Payment must be made in accordance with the price stated on the company's website or catalog provided by the company.",
+            "line2": "Payment can be made using bank transfer or cash.",
+            "line3": "Payment by bank transfer must be made to the account specified by the company and proof of payment must be sent to the company.",
+            "line4": "Cash payment can be made at the company's office or directly to the appointed agent."
+        },
+        "cancellation": {
+            "title": "Cancellation",
+            "line1": "If the customer cancels the reservation, the company will refund the money paid in accordance with the applicable refund policy.",
+            "line2": "The refund will be made within the time specified by the company after the verification process is complete.",
+            "line3": "If the customer cancels the reservation in the middle of the trip, the company will not refund the money paid.",
+            "line4": "If the company cancels the trip, the company will refund the money paid by the customer."
+        },
+        "responsibility": {
+            "title": "Responsibility",
+            "line1": "The company is not responsible for any damage, loss, or injury that occurs during the trip, except if it is caused by the company's negligence.",
+            "line2": "The customer is responsible for bringing the necessary documents such as a passport and visa.",
+            "line3": "The company is not responsible for any actions taken by the customer that violate the law during the trip."
+        },
+        "change_of_itinerary": {
+            "title": "Change of Itinerary",
+            "line1": "The company has the right to change the itinerary of the trip if there are unforeseen circumstances such as bad weather or natural disasters.",
+            "line2": "The company will provide sufficient information to customers regarding the changes in itinerary.",
+            "line3": "If the change in itinerary made by the company causes cancellation of the trip by the customer, the company will refund the money paid by the customer."
+        }
+    },
+    "callto_action": "Explore the world by making journey with us"
+}
