@@ -5,7 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 
 
-function ToCModal({ show, onHide }) {
+function TocModal({ show, onHide }) {
     const { t } = useTranslation('common');
 
     return (
@@ -63,4 +63,4 @@ function ToCModal({ show, onHide }) {
 
 }
 
-export default ToCModal
+export default TocModal

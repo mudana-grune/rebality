@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { i18n } from '../next-i18next.config';
-import ToCModal from "./ToCModal";
+import TocModal from "./TocModal";
 import { APP_NAME } from "@/utils/constants";
 import Image from "next/image";
 
@@ -156,7 +156,7 @@ export default function Nav() {
                     </ul>
                 </div>
             </nav>
-            <ToCModal show={showModal} onHide={handleCloseModal} />
+            <TocModal show={showModal} onHide={handleCloseModal} />
         </>
 
     )
