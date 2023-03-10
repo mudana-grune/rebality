@@ -5,6 +5,7 @@ import '@/public/style.css';
 import Head from 'next/head';
 import Cookies from 'js-cookie';
 import { getMeta } from '@/utils/constants';
+import { DefaultSeo } from 'next-seo';
 
 function MyApp({ Component, pageProps }) {
   const [initialRenderComplete, setInitialRenderComplete] = useState(false);
@@ -18,13 +19,16 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <DefaultSeo
+        title={title}
+        description={desc}
+      />
       <Head>
-        <title>{title}</title>
         <meta name="google-site-verification" content="Re3_VCnz63Fs9An8w1aorGsVYJtAzVe4NPqbiIYsMg0" />
-        <meta name="description" content={desc} />
       </Head>
       <Component {...pageProps} />
     </>
+
   )
 }
 
