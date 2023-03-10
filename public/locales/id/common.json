@@ -74,5 +74,8 @@
             "line3": "Jika perubahan itinerary yang dilakukan oleh perusahaan mengakibatkan pembatalan perjalanan oleh pelanggan, maka perusahaan akan mengembalikan uang yang dibayarkan oleh pelanggan."
         }
     },
-    "callto_action": "Jelajahi Dunia Dengan Melakukan Perjalanan Bersama Kami"
+    "callto_action": "Jelajahi Dunia Dengan Melakukan Perjalanan Bersama Kami",
+    "wa_status": "Biasanya membalas dalam 5 menit",
+    "wa_chat": "Halo! 🤝 \nAda yang bisa kami bantu?",
+    "wa_placeholder": "Tulis pesan.."
 }

@@ -74,5 +74,8 @@
             "line3": "If the change in itinerary made by the company causes cancellation of the trip by the customer, the company will refund the money paid by the customer."
         }
     },
-    "callto_action": "Explore the world by making journey with us"
+    "callto_action": "Explore the world by making journey with us",
+    "wa_status": "Typically replies within 5 minutes",
+    "wa_chat": "Hello there! 🤝 \nHow can we help?",
+    "wa_placeholder": "Type a message.."
 }

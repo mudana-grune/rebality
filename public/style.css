@@ -194,13 +194,13 @@ iframe {
 /*scrol to top*/
 
 .scrollToTop {
-	bottom: 60px;
+	bottom: 2rem;
 	color: #ffffff;
 	display: none;
 	font-size: 30px;
 	line-height: 50px;
 	position: fixed;
-	right: 20px;
+	right: 2rem;
 	text-align: center;
 	text-decoration: none;
 	width: 55px;
@@ -1589,4 +1589,45 @@ input.check-toggle-round-flat:checked+label:after {
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
+}
+
+.chatbox.open {
+	animation: _bounceIn 0.4s both !important;
+}
+
+.chatbox.close {
+	animation: _bounceOut 0.4s both !important;
+}
+
+@keyframes _bounceOut {
+	0% {
+		opacity: 1;
+		height: scale(1, 1);
+		transform-origin: bottom left;
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0, 0);
+		transform-origin: bottom left;
+	}
+}
+
+@keyframes _bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(0, 0);
+		transform-origin: bottom left;
+	}
+
+	50% {
+		transform: scale(1.03, 1.03);
+		transform-origin: bottom left;
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1, 1);
+		transform-origin: bottom left;
+	}
 }

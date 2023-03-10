@@ -5,15 +5,19 @@ import { useRouter } from 'next/router';
 import ContactUs from '@/components/ContactUs';
 import Map from '@/components/Map';
 import Tour from '@/components/Tour';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 import Header from '@/components/Header';
 import AboutUs from '@/components/AboutUs';
 import WhyUs from '@/components/WhyUs';
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import { APP_NAME, WA_NUM } from '@/utils/constants';
+
 
 const Home = () => {
   const { t } = useTranslation('common');
   const router = useRouter();
+  const [waOpen, setWaOpen] = useState(false);
 
   useEffect(() => {
     const locale = Cookies.get('rebality-lang') || 'en';
@@ -44,6 +48,27 @@ const Home = () => {
         <ContactUs />
         <Map />
       </BaseLayout>
+      <FloatingWhatsApp
+        accountName={APP_NAME}
+        phoneNumber={WA_NUM}
+        darkMode={true}
+        notification={true}
+        notificationLoop={1}
+        notificationDelay={20}
+        notificationSound={false}
+        allowClickAway={true}
+        allowEsc={true}
+        statusMessage={t('wa_status')}
+        placeholder={t('wa_placeholder')}
+        chatMessage={t('wa_chat')}
+        avatar={'/assets/images/avatar.jpg'}
+        buttonStyle={{ left: '2rem' }}
+        chatboxStyle={{ left: '4rem' }}
+        chatboxClassName={`${waOpen ? 'open' : 'close'} chatbox`}
+        onClick={() => setWaOpen(true)}
+        onClose={() => setWaOpen(false)}
+
+      />
     </>
   )
 }
