@@ -49,7 +49,7 @@ const Home = () => {
         <Map />
       </BaseLayout>
       <FloatingWhatsApp
-        accountName={APP_NAME}
+        accountName={`${APP_NAME} - Admin`}
         phoneNumber={WA_NUM}
         darkMode={true}
         notification={true}
@@ -61,12 +61,11 @@ const Home = () => {
         statusMessage={t('wa_status')}
         placeholder={t('wa_placeholder')}
         chatMessage={t('wa_chat')}
-        avatar={'/assets/images/avatar.jpg'}
+        avatar={'/assets/images/logo.png'}
         buttonStyle={{ left: '2rem' }}
         chatboxClassName={`${waOpen ? 'open' : 'close'} chatbox`}
         onClick={() => setWaOpen(true)}
         onClose={() => setWaOpen(false)}
-
       />
     </>
   )
