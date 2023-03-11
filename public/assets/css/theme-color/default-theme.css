@@ -44,7 +44,9 @@ a:focus,
 }
 
 .mu-social-media a:hover,
-.mu-social-media a:focus {
+.mu-social-media a:focus,
+.mu-hero-top-info>.mu-social-media a:hover,
+.mu-hero-top-info>.mu-social-media a:focus {
 	border: 1px solid #37b721;
 	color: #37b721;
 }

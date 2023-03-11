@@ -301,6 +301,13 @@ iframe {
 	margin-top: 14px;
 }
 
+.mu-hero-top-info>.mu-social-media a {
+	color: #fff;
+	font-size: 18px;
+	display: inline-block;
+	border: 1px solid #f8f8f8;
+}
+
 .mu-hero-top-info ul li {
 	list-style: none;
 	color: #fff;

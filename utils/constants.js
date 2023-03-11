@@ -2,7 +2,7 @@ export const APP_NAME = 'ReBALIty';
 export const WA_NUM = '6287756614174';
 export const WA_URL = `https://wa.me/${WA_NUM}`
 export const ADDRESS = 'Jl. Surya Bhuana I B No. 5, Kerobokan Kaja, Kuta Utara, 80361';
-
+export const IG = 'rebality_';
 export const getMeta = (lang) => {
     const titleEn = 'ReBALIty - Authentic and Unforgettable Travel Experiences in Bali';
     const titleId = 'ReBALIty - Pengalaman Perjalanan Otentik dan Tak Terlupakan di Bali';

@@ -27,21 +27,15 @@ export default function Footer() {
                         <div className="col-md-4">
                             <div className="mu-footer-right">
                                 <div className="mu-social-media">
-                                    <a href="#">
+                                    <Link href="#">
                                         <i className="fa fa-facebook" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fa fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fa fa-google-plus" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fa fa-youtube" />
-                                    </a>
+                                    </Link>
+                                    <Link href={'https://www.instagram.com/rebality_'} target="_blank">
+                                        <i className="fa fa-instagram" />
+                                    </Link>
+                                    <Link href="https://www.youtube.com/@rebality5325" target={"_blank"}>
+                                        <i className="fa fa-youtube-play" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-import { APP_NAME, WA_NUM, WA_URL } from '@/utils/constants'
+import { APP_NAME, WA_URL } from '@/utils/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -38,16 +38,21 @@ const Header = () => {
                         </div>
                         {/* End center Logo */}
                         <div className="mu-hero-top-info">
-                            <ul>
-                                <li>
-                                    <div className="mu-telephone">
-                                        <Link href={'#'} onClick={sendMessage}>
-                                            <i className="fa fa-whatsapp" aria-hidden="true" />
-                                            <span className='pl-1'>{WA_NUM}</span>
-                                        </Link>
-                                    </div>
-                                </li>
-                            </ul>
+
+                            <div className="mu-social-media">
+                                <Link href="#" onClick={sendMessage}>
+                                    <i className="fa fa-whatsapp" />
+                                </Link>
+                                <Link href="#">
+                                    <i className="fa fa-facebook" />
+                                </Link>
+                                <Link href={'https://www.instagram.com/rebality_'} target="_blank">
+                                    <i className="fa fa-instagram" />
+                                </Link>
+                                <Link href="https://www.youtube.com/@rebality5325" target={"_blank"}>
+                                    <i className="fa fa-youtube-play" />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                     {/* Start hero featured area */}
