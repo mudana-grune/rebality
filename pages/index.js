@@ -63,7 +63,6 @@ const Home = () => {
         chatMessage={t('wa_chat')}
         avatar={'/assets/images/avatar.jpg'}
         buttonStyle={{ left: '2rem' }}
-        chatboxStyle={{ left: '4rem' }}
         chatboxClassName={`${waOpen ? 'open' : 'close'} chatbox`}
         onClick={() => setWaOpen(true)}
         onClose={() => setWaOpen(false)}

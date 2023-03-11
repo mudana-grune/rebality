@@ -1599,6 +1599,10 @@ input.check-toggle-round-flat:checked+label:after {
 	animation: _bounceOut 0.4s both !important;
 }
 
+.chatbox {
+	left: 4rem;
+}
+
 @keyframes _bounceOut {
 	0% {
 		opacity: 1;
@@ -1630,4 +1634,12 @@ input.check-toggle-round-flat:checked+label:after {
 		transform: scale(1, 1);
 		transform-origin: bottom left;
 	}
+}
+
+@media (max-width: 320px) {
+
+	.chatbox {
+		left: 0;
+	}
+
 }
