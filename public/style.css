@@ -1018,7 +1018,7 @@ iframe {
 	}
 
 	.mu-about-left img {
-		max-width: none;
+		max-width: 640px;
 		width: auto;
 	}
 
