@@ -1,4 +1,4 @@
-import { APP_NAME, WA_NUM } from "@/utils/constants";
+import { ADDRESS, APP_NAME, WA_NUM } from "@/utils/constants";
 import Link from "next/link";
 
 export default function Footer() {
@@ -20,7 +20,7 @@ export default function Footer() {
                         </div>
                         <div className="col-md-4">
                             <div className="">
-                                <p><span className="px-1"><i className="fa fa-map-marker"></i></span>Jl. Surya Bhuana I B No.2, Kerobokan Kaja, Kuta Utara, 80361</p>
+                                <p><span className="px-1"><i className="fa fa-map-marker"></i></span>{ADDRESS}</p>
                                 <p><span><i className="fa fa-whatsapp"></i></span> {WA_NUM}</p>
                             </div>
                         </div>
