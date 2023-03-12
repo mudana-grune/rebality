@@ -12,6 +12,7 @@ import AboutUs from '@/components/AboutUs';
 import WhyUs from '@/components/WhyUs';
 import { APP_NAME, WA_NUM, WA_URL } from '@/utils/constants';
 import { FloatingButton } from '@/components/WhatsApp/FloatingButton';
+import RecentVideo from '@/components/RecentVideo';
 
 
 const Home = () => {
@@ -47,7 +48,7 @@ const Home = () => {
       <BaseLayout>
         <AboutUs />
         <WhyUs />
-        {/* TOUR */}
+        <RecentVideo />
         <Tour />
         <section id="mu-callto-action">
           <div className="container">

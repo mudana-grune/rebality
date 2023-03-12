@@ -526,6 +526,56 @@ iframe {
 /* VIDEO */
 /*--------------------*/
 
+#mu-video {
+	background-image: url("/assets/images/hero.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: inline;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#mu-video:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	opacity: 0.94;
+	width: 100%;
+	z-index: 10;
+}
+
+.mu-video-area {
+	display: inline;
+	float: left;
+	position: relative;
+	padding: 100px 0;
+	text-align: center;
+	width: 100%;
+	z-index: 99;
+}
+
+.mu-video-area h2,
+.mu-video-area p {
+	color: #fff;
+}
+
+.mu-video-content {
+	display: inline;
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.mu-video-content iframe {
+	border: none;
+}
 
 
 /*--------------------*/

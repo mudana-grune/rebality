@@ -82,5 +82,7 @@
     "tour": "Our Featured Tours",
     "tour_desc": "We offer superior tour packages in Bali featuring the best tourist destinations on the Island of the Gods. Here are some of our featured tour packages",
     "tour_navlink": "Tours",
-    "booking_body": "I'm about to book the *{{target}} Tour* package, please provide more information about this package. \nThank You"
+    "booking_body": "I'm about to book the *{{target}} Tour* package, please provide more information about this package. \nThank You",
+    "recent_video_title": "Watch Our Recent Trip Video",
+    "recent_video_desc": "Here is our latest travel video! In this video, we show you the best moments from our trip to amazing destinations. You'll see the stunning natural beauty, the exciting activities we do, and the culture and traditions we learn about in every place we visit.\nWatch our travel videos and join us on an unforgettable adventure!"
 }
