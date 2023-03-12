@@ -77,5 +77,10 @@
     "callto_action": "Explore the world by making journey with us",
     "wa_status": "Typically replies within 5 minutes",
     "wa_chat": "Hello there! 🤝 \nHow can we help?",
-    "wa_placeholder": "Type a message.."
+    "wa_placeholder": "Type a message..",
+    "more_package": "More tour packages are coming soon",
+    "tour": "Our Featured Tours",
+    "tour_desc": "We offer superior tour packages in Bali featuring the best tourist destinations on the Island of the Gods. Here are some of our featured tour packages",
+    "tour_navlink": "Tours",
+    "booking_body": "I'm about to book the *{{target}} tour* package, please provide more information about this package. \nThank You"
 }

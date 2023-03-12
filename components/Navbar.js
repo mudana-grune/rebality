@@ -132,6 +132,19 @@ export default function Nav() {
                         <li className="nav-item">
                             <ScrollLink
                                 className="nav-link"
+                                to="mu-featured-tours"
+                                smooth={true}
+                                duration={500}
+                                href={'#mu-featured-tours'}
+
+                                onClick={closeMenu}
+                            >
+                                {t('tour_navlink')}
+                            </ScrollLink>
+                        </li>
+                        <li className="nav-item">
+                            <ScrollLink
+                                className="nav-link"
                                 to="contact"
                                 smooth={true}
                                 duration={500}

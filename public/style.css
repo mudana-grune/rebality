@@ -560,14 +560,38 @@ iframe {
 	float: left;
 	margin-top: 40px;
 	width: 100%;
+
 }
 
 .mu-featured-tours-single {
 	background-color: #f8f8f8;
 	display: inline;
+	position: relative;
 	float: left;
 	width: 100%;
 	margin: 15px 0;
+	min-height: 590px;
+
+}
+
+.more-tour-package {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	height: 70vh;
+}
+
+.more-tour-package>.center {
+	text-align: center;
+	padding: 2rem;
+	margin: 2rem;
+	background-color: transparent;
+	border: 1px solid #37b721;
+	border-radius: 50px;
+}
+
+.more-tour-package>.center>h4 {
+	margin-bottom: 0;
 }
 
 .mu-featured-tours-single-info {
@@ -576,6 +600,11 @@ iframe {
 	position: relative;
 	width: 100%;
 	padding: 20px 10px;
+}
+
+.mu-featured-tours-single-info ul li {
+	list-style: none;
+	font-size: 18px;
 }
 
 .mu-featured-tours-single h3 {
@@ -591,22 +620,31 @@ iframe {
 
 .mu-price-tag {
 	position: absolute;
-	bottom: 25px;
-	left: 15px;
+	bottom: 0;
+	left: 0;
 	color: #333;
 	font-size: 22px;
-	font-weight: 600;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
 }
+
 
 .mu-featured-tours-single p {
 	font-size: 15px;
 }
 
-.mu-featured-tours-single-info .mu-book-now-btn {
+.mu-featured-tours-single .mu-book-now-btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 	margin-top: 10px;
 	font-size: 15px;
-	text-transform: capitalize;
-	float: right;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	border: 1px solid #37b721;
+	background-color: transparent;
+	text-transform: uppercase;
+
 }
 
 /*--------------------*/

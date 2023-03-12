@@ -63,9 +63,10 @@ const Header = () => {
                             <p>
                                 {t('hero.body')}
                             </p>
-                            <a href="#" className="mu-book-now-btn">
+                            <ScrollLink href={"#mu-featured-tours"}
+                                className="mu-book-now-btn" to="mu-featured-tours" duration={500} smooth={true}>
                                 {t('book-now').toUpperCase()}
-                            </a>
+                            </ScrollLink>
                             <div className="mu-scrolldown-area">
                                 <ScrollLink
                                     className="mu-scrolldown"

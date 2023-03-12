@@ -77,5 +77,10 @@
     "callto_action": "Jelajahi Dunia Dengan Melakukan Perjalanan Bersama Kami",
     "wa_status": "Biasanya membalas dalam 5 menit",
     "wa_chat": "Halo! 🤝 \nAda yang bisa kami bantu?",
-    "wa_placeholder": "Tulis pesan.."
+    "wa_placeholder": "Tulis pesan..",
+    "more_package": "Lebih banyak paket wisata akan segera hadir",
+    "tour": "Tour Unggulan Kami",
+    "tour_desc": "Kami menawarkan paket wisata unggulan di Bali yang menampilkan destinasi wisata terbaik di Pulau Dewata. Berikut adalah beberapa paket wisata unggulan kami",
+    "tour_navlink": "Tour",
+    "booking_body": "Saya ingin memesan paket *{{target}} tour*, mohon berikan informasi mengenai paket ini. \nTerima kasih"
 }

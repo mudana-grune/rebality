@@ -1,10 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 const ScrollUp = () => {
     return (
-        <a className="scrollToTop" href="#">
+        <Link className="scrollToTop" href="#">
             <i className="fa fa-angle-up" />
-        </a>
+        </Link>
     )
 }
 
