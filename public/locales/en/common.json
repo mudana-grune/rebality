@@ -82,5 +82,5 @@
     "tour": "Our Featured Tours",
     "tour_desc": "We offer superior tour packages in Bali featuring the best tourist destinations on the Island of the Gods. Here are some of our featured tour packages",
     "tour_navlink": "Tours",
-    "booking_body": "I'm about to book the *{{target}} tour* package, please provide more information about this package. \nThank You"
+    "booking_body": "I'm about to book the *{{target}} Tour* package, please provide more information about this package. \nThank You"
 }

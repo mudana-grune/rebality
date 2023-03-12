@@ -82,5 +82,5 @@
     "tour": "Tour Unggulan Kami",
     "tour_desc": "Kami menawarkan paket wisata unggulan di Bali yang menampilkan destinasi wisata terbaik di Pulau Dewata. Berikut adalah beberapa paket wisata unggulan kami",
     "tour_navlink": "Tour",
-    "booking_body": "Saya ingin memesan paket *{{target}} tour*, mohon berikan informasi mengenai paket ini. \nTerima kasih"
+    "booking_body": "Saya ingin memesan paket *{{target}} Tour*, mohon berikan informasi mengenai paket ini. \nTerima kasih"
 }
