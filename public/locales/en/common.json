@@ -84,5 +84,18 @@
     "tour_navlink": "Tours",
     "booking_body": "I'm about to book the *{{target}} Tour* package, please provide more information about this package. \nThank You",
     "recent_video_title": "Watch Our Recent Trip Video",
-    "recent_video_desc": "Here is our latest travel video! In this video, we show you the best moments from our trip to amazing destinations. You'll see the stunning natural beauty, the exciting activities we do, and the culture and traditions we learn about in every place we visit.\nWatch our travel videos and join us on an unforgettable adventure!"
+    "recent_video_desc": "Here is our latest travel video! In this video, we show you the best moments from our trip to amazing destinations. You'll see the stunning natural beauty, the exciting activities we do, and the culture and traditions we learn about in every place we visit.\nWatch our travel videos and join us on an unforgettable adventure!",
+    "inquiry": {
+        "title": "Make Your Custom Tour Plan",
+        "body_message": "I want to make a custom tour with the following details.\nDate : {{date}}\nPax: {{pax}}\nDestinations: {{dest}}\nNote: {{note}}\n\nPlease give me suggestions for the tour above.\n\nThank You",
+        "name_ph": "Your Name",
+        "date_ph": "Your Tour Date",
+        "pax_ph": "Pax number",
+        "dest_ph": "e.g: Uluwatu, Besakih, Bedugul or leave it blank and decide later",
+        "note_ph": "Special Note, Optional",
+        "submit": "Send Inquiry",
+        "subtitle": "You don't have to worry about wasting time and money on a trip that doesn't suit your preferences. You can plan a totally unique and amazing travel itinerary according to your wishes.",
+        "thank_you": "Thank You For Sending An Inquiry",
+        "thank_you_body": "Your nquiry will be forwarded to WhatsApp"
+    }
 }

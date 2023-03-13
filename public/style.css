@@ -581,6 +581,13 @@ iframe {
 /*--------------------*/
 /* FEATURED TOURS */
 /*--------------------*/
+.tour-planner {
+	background-color: #fff;
+	float: left;
+	padding: 100px 0;
+	display: inline;
+	width: 100%;
+}
 
 #mu-featured-tours {
 	background-color: #fff;
@@ -588,6 +595,17 @@ iframe {
 	padding: 100px 0;
 	display: inline;
 	width: 100%;
+}
+
+.tour-planner-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.tour-planner-header h2 {
+	color: #333;
 }
 
 .mu-featured-tours-area {

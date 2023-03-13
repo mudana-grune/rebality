@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import TourPlanner from './TourPlanner'
 
 const Tour = () => {
     const { t } = useTranslation('common');
@@ -37,7 +38,7 @@ const Tour = () => {
                                 <div className="row">
                                     {tours.map((tour, index) => {
                                         return (
-                                            <div className="col-md-4" key={index}>
+                                            <div className="col-md-6 col-lg-4" key={index}>
                                                 <div className="mu-featured-tours-single">
                                                     <figure className='figure'>
                                                         <Image src={`/assets/images/tours/${tour.image ?? '/assets/images/dubai.jpg'}`} alt="img" width={350} height={260} />
@@ -65,7 +66,7 @@ const Tour = () => {
 
                                         );
                                     })}
-                                    <div className="col-md-4">
+                                    <div className="col-md-6 col-lg-4">
                                         <div className="mu-featured-tours-single">
 
                                             <div className='more-tour-package'>
@@ -83,6 +84,9 @@ const Tour = () => {
                             {/* End Featured Tours content */}
                         </div>
                     </div>
+                </div>
+                <div className='row'>
+                    <TourPlanner />
                 </div>
             </div>
         </section>

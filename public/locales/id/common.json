@@ -84,5 +84,18 @@
     "tour_navlink": "Tour",
     "booking_body": "Saya ingin memesan paket *{{target}} Tour*, mohon berikan informasi mengenai paket ini. \nTerima kasih",
     "recent_video_title": "Tonton Video Perjalanan Terbaru Kami",
-    "recent_video_desc": "Berikut adalah video perjalanan terbaru kami! Dalam video ini, kami menampilkan momen-momen terbaik dari perjalanan wisata kami ke berbagai destinasi yang menakjubkan. Anda akan melihat keindahan alam yang menakjubkan, kegiatan menarik yang kami lakukan, serta budaya dan tradisi yang kami pelajari di setiap tempat yang kami kunjungi.\nTonton video perjalanan kami dan ikuti kami dalam petualangan yang tak terlupakan!"
+    "recent_video_desc": "Berikut adalah video perjalanan terbaru kami! Dalam video ini, kami menampilkan momen-momen terbaik dari perjalanan wisata kami ke berbagai destinasi yang menakjubkan. Anda akan melihat keindahan alam yang menakjubkan, kegiatan menarik yang kami lakukan, serta budaya dan tradisi yang kami pelajari di setiap tempat yang kami kunjungi.\nTonton video perjalanan kami dan ikuti kami dalam petualangan yang tak terlupakan!",
+    "inquiry": {
+        "title": "Buat Rencana Perjalanan Anda",
+        "body_message": "Saya ingin membuat custom tour dengan detail sebagai berikut.\nTanggal : {{date}}\nPax: {{pax}}\nDestinasi: {{dest}}\nNote: {{note}}\n\nMohon berikan saya saran untuk tour diatas.\n\nTerima kasih",
+        "name_ph": "Nama Anda",
+        "date_ph": "Tanggal Perjalanan",
+        "pax_ph": "Jumlah Pax",
+        "dest_ph": "Misalnya: Uluwatu, Besakih, Bedugul atau biarkan kosong dan putuskan nanti",
+        "note_ph": "Catatan Khusus, Opsional",
+        "submit": "Kirim Inquiry",
+        "subtitle": "Anda tidak perlu khawatir tentang membuang waktu dan uang dalam perjalanan yang tidak sesuai dengan preferensi Anda. Anda dapat merencanakan perjalanan wisata yang benar-benar unik dan menakjubkan sesuai dengan keinginan Anda.",
+        "thank_you": "Terima Kasih Sudah Mengirimkan Inquiry",
+        "thank_you_body": "Inquiry Anda akan dialihkan ke WhatsApp"
+    }
 }
